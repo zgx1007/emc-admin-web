@@ -1,0 +1,67 @@
+.el-main2 {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-align-content: center;
+	-ms-flex-line-pack: center;
+	align-content: center;
+	max-width: 50vw;
+	min-width: 550px;
+	height: 60vh;
+	margin: 1vh auto 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.el-main__item {
+	width: 33.33%;
+	padding: 10% 0 2%;
+}
+
+.el-main__link {
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+.el-main__img {
+	width: 37.5%;
+    max-width: 265px;
+    min-width: 153px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 1px 2px 5px 1px white
+}
+
+.el-main__title2 {
+	/* font-weight: 500; */
+	display: inline-block;
+	padding: 0 0.5em;
+	line-height: 1.5;
+	color: aliceblue;
+	text-shadow: 5px 2px 5px #c5d2db;
+	
+
+}
+.el-main__title{
+	color: aliceblue;
+}
+.landing-header__title {
+    /* background-color:  */
+	font-family: '微软简中圆', serif;
+	font-size: 6em;
+	font-weight: 400;
+	line-height: 1;
+	margin: 0.15em 0 0;
+	letter-spacing: 0.05em;
+	pointer-events: none;
+}
